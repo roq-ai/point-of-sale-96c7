@@ -1,0 +1,6 @@
+import * as yup from 'yup';
+
+export const inventoryManagerValidationSchema = yup.object().shape({
+  user_id: yup.string().nullable(),
+  business_id: yup.string().nullable(),
+});
